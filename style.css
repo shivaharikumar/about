@@ -344,6 +344,36 @@ section {
     transform: translateY(0);
 }
 
+/* --- CREDLY PORTFOLIO LINKS --- */
+.credly-link {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--accent-color);
+    text-decoration: none;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    transition: color 0.2s ease, opacity 0.2s ease;
+    opacity: 0.8;
+}
+
+.credly-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* Tighten certification text scaling for uniform grid heights */
+.recognition-content h4 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.recognition-org {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
 /* --- FOOTER --- */
 footer {
     padding: 4rem 0;
