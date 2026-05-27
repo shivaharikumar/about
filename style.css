@@ -326,6 +326,15 @@ section {
     color: var(--text-main);
 }
 
+.recog-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.recog-title a:hover {
+    text-decoration: underline;
+}
+
 .recog-org {
     color: var(--text-muted);
     font-size: 0.9rem;
